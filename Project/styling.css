@@ -1,0 +1,233 @@
+*{
+    color: #1a1a1a;
+    font-family: cursive;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#navigation-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;   
+    background-color: #7590ac;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+#info{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+#info div{
+    padding: 10px;
+}
+#image-container img{
+    width: 10vw;
+}
+#image-container, #info{
+    margin: 0 5vw 0 5vw;   
+    /* Top Right Bottom Left */
+}
+#tagling-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+#hero-container{
+    margin: 10px;
+}
+#hero-images{
+    display: flex;
+}
+.image-holder img{
+    width: 100%;
+}
+.image-holder{
+    padding : 20px;
+    background-color: rgb(215, 215, 215);
+}
+.image-holder button{
+    width: 100%;
+    padding: 10px;
+    background-color: #cbcbcb;
+    border: 0px;
+    border-radius: 10px;
+}
+#info a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#info a:hover {
+    color: #dbeafe; /* light blue on hover */
+}
+#info{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+.delete-btn, .done-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+.done-btn {
+    background-color: #333;
+    color: white;
+}
+
+.done-btn:hover {
+    background-color: #555;
+}
+
+/* Priority Colors */
+.low { background-color: #4CAF50; }      /* Green */
+.medium { background-color: #FFC107; }   /* Yellow */
+.high { background-color: #F44336; }     /* Red */
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 30px;
+}
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 15px 0;
+      padding: 12px 16px;
+      background: #edf2f7;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    li:hover {
+      background: #e2e8f0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #3182ce;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .note-icon {
+      margin-right: 8px;
+    }
+#homeTaskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #f1f5f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+#homeTaskList li:hover {
+    background: #e2e8f0;
+    transition: background 0.2s;
+}
+
+#homeTaskList small {
+    color: #555;
+}

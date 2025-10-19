@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Helper</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="idkWhatToCallThis.js">
+</head>
+<body>
+     <!-- Start of Navigation Container -->
+    <div id="navigation-container">
+        <div id="image-container">
+            <img src="./logomaybe.png" alt="">
+        </div>
+        <div id="info">
+            <div id="home"><a href="./home.html">HOME</a></div>
+            <div id="notes"><a href="./notsure.html">NOTES</a></div>
+            <div id="tasks"><a href="./task.html">TASK</a></div>
+        </div>
+
+    </div>
+    <!-- End of Navigation Container -->
+    <div class="container">
+        <h1>Study Helper / Task Tracker</h1>
+
+        <!-- Task Input Form -->
+        <form id="taskForm">
+            <input type="text" id="taskName" placeholder="Task name" required>
+            <input type="text" id="taskSubject" placeholder="Subject">
+            <input type="date" id="taskDueDate">
+            <select id="taskPriority">
+                <option value="Low">Low Priority</option>
+                <option value="Medium">Medium Priority</option>
+                <option value="High">High Priority</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+
+        <!-- Task List -->
+        <h2>Your Tasks</h2>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="idkWhatToCallThis.js"></script>
+</body>
+</html>
